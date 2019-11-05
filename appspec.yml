@@ -8,6 +8,7 @@ hooks:
   - location: fix_previleges.sh
     timeout: 300
     runas: root
+  ApplicationStart:
   - location: start_server.sh
     timeout: 300
     runas: root
