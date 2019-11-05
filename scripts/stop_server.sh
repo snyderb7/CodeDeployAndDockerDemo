@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Entered the stop phase...
+echo "Entered the stop phase..."
