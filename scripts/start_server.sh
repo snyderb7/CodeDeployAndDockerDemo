@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar DockerDemo.jar
+java -jar /home/ec2-user/DockerDemo.jar
