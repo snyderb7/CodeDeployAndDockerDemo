@@ -10,12 +10,12 @@ phases:
     - apt-get install -y maven
   build:
     commands:
-    - echo building the justiceleague-tracker
+    - echo building the DockerDemo
     - mvn clean install
 artifacts:
   files:
   - target/*.jar
-  - scripts/*
+  - scripts/*.sh
   - appspec.yml
   discard-paths: yes
 
