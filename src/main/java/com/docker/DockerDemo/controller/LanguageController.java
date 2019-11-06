@@ -33,6 +33,7 @@ public class LanguageController {
 		if (allLanguages.isEmpty()) {
 			return new ResponseEntity<List<Language>>(HttpStatus.NO_CONTENT);
 		}
+		
 		return new ResponseEntity<List<Language>>(allLanguages, HttpStatus.OK);
 
 	}
